@@ -13,21 +13,17 @@ html{
 }
 .container{
     padding: 0px 125px;
-    max-width: 1140px;
 }
 .header{
-    /* background-color: white;
-    box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0; */
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
+}
+.header img{
+    width: 150px;
 }
 .main-nav {
     display: flex;
@@ -58,7 +54,6 @@ html{
     max-width: 300px;
 }
 .spt-container{
-    /* padding-top: 100px; */
     max-height: 540px;
     display: flex;
     justify-content: space-between;
@@ -100,7 +95,7 @@ html{
     padding-top: 10px;
 }
 .clm-rw-1{
-   max-width: 250px;
+   max-width: 275px;
    margin-top: 50px;
    margin-left: 1rem;
 }
@@ -225,7 +220,6 @@ html{
     border-radius: .3125rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* margin-left: 20px; */
     padding-right: 0px;
     padding: .6125rem 1rem;
 }
@@ -337,15 +331,10 @@ html{
     box-sizing: border-box;
 }
 .check-box1{
-    height: 16px;
-    width: 16px;
+    height: 1.1rem;
+    width: 1.9rem;
     margin-right: 10px;
 }
-/* .check-box1:checked {
-    color: green;
-    background-color: #377dff;
-    border-color: #377dff;
-  } */
 .form-1 label{
     color: #777;
 }
@@ -362,10 +351,11 @@ html{
     padding: 20px 25%;
     background-color: rgb(10, 152, 218);
     border-radius: 0.5rem;
-    border: .0625rem solid rgba(33,50,91,.1);
+    border: 0;
     margin-top: 10px;
     color: white;
     transition: all .2s ease-in-out;
+    box-shadow: 0 .375rem 1.5rem 0 rgba(140,152,164,.125);
 }
 .form-btn{
     text-align: center;
@@ -447,9 +437,6 @@ html{
         padding: 0px;
         justify-self: center;
     }
-    /* .learning-details .quote-1{
-        
-    } */
     .about-the-prgm{
         margin-bottom: 0px;
     }
