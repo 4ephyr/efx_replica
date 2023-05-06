@@ -20,10 +20,10 @@ html{
     padding: 5%;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 .header img{
     width: 150px;
+    height: 110px;
 }
 .main-nav {
     display: flex;
@@ -383,6 +383,29 @@ html{
 .programming-lang-head{
     text-align: center;
 }
+.small-nav a{
+    text-decoration: none;
+    color: #777;
+    padding: .5rem;
+}
+.small-nav{
+    display: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 20vh;
+    line-height: 3.5;
+    box-shadow: 0 2.5rem 1.5rem 0 rgba(140,152,164,.125);
+}
+.sample{
+    display: block;
+}
+.small-nav li{
+    background-color: white;
+}
+/* Responsive design starts here */
  
 @media all and (max-width: 900px) {
     
@@ -487,4 +510,8 @@ html{
         padding: 10px ;
     }
 }
-
+@media all and (min-width: 780px){
+    .sample{
+        display: none;
+    }
+    }
