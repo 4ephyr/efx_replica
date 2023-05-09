@@ -43,7 +43,9 @@ html{
 .main-nav-list li a:hover{
     color: rgb(71, 110, 196);
 }
-
+.main-nav-list li a:focus{
+    color: rgb(10, 152, 218);
+}
 .text-block{
     height: 300px;
     width: 450px;
@@ -387,6 +389,12 @@ html{
     text-decoration: none;
     color: #777;
     padding: .5rem;
+}
+.small-nav a:hover{
+    color: white;
+    background-color: rgb(10, 152, 218);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
 }
 .small-nav{
     display: none;
