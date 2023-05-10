@@ -397,7 +397,7 @@ html{
     border-radius: 5px;
 }
 .small-nav{
-    display: none;
+    opacity: 0;
     top: 0;
     right: 0;
     position: absolute;
@@ -406,9 +406,10 @@ html{
     margin-top: 20vh;
     line-height: 3.5;
     box-shadow: 0 2.5rem 1.5rem 0 rgba(140,152,164,.125);
+    transition: all .2s ease-in-out;
 }
 .sample{
-    display: block;
+    opacity: 1;
 }
 .small-nav li{
     background-color: white;
